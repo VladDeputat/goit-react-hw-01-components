@@ -26,22 +26,12 @@
 }
 
 .isOnlineSign {
-  display: block;
-  margin: auto 15px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #000000;
+  composes: status;
   background-color: green;
 }
 
 .isOfflineSign {
-  display: block;
-  margin: auto 15px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #000000;
+  composes: status;
   background-color: red;
 }
 
